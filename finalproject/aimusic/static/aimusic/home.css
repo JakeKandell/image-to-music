@@ -1,0 +1,37 @@
+h1 {
+    color: #5F6F52;
+    font-size: 64px;
+    font-family: "Source Sans Pro" monospace sans-serif;
+    margin: 0px;
+}
+
+#instructions {
+    color: #A9B388;
+    font-size: 32px;
+    font-family: "Source Sans Pro" monospace sans-serif;
+}
+
+form {
+    margin: auto;
+    width: 80%;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Source Sans Pro" monospace sans-serif;
+    color: #B99470;
+}
+
+button {
+    background-color: #B99470;
+    font-size: 28px;
+    padding: 8px 20px 8px 20px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Source Sans Pro" monospace sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #8f6b49;
+}
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Complete</title>
+    <link rel="stylesheet" href="{% static 'aimusic/shared.css' %}">
+    <link rel="stylesheet" href="{% static 'aimusic/upload_complete.css' %}">
+</head>
+<body>
+    <div class="content">
+        <h1>Upload Successful</h1>
+        <img id="uploaded-image" src="{{ relativeImagePath }}" alt="Uploaded Image">
+        <a id="generate-music" href="{% url 'aimusic:music' %}">Generate Music</a>
+        <img id="loading" src="{% static 'aimusic/images/loading.svg' %}" alt="Loading Music">
+    </div>
+
+    <script type="text/javascript" src="{% static 'aimusic/upload_complete.js' %}"></script>
+</body>
+</html>

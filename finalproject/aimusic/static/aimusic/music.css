@@ -1,0 +1,29 @@
+h1 {
+    color: #5F6F52;
+    font-size: 64px;
+    font-family: "Source Sans Pro" monospace sans-serif;
+}
+
+p {
+    color: #A9B388;
+    font-size: 32px;
+    font-family: "Source Sans Pro" monospace sans-serif;
+}
+
+a {
+    display: block;
+    background-color: #B99470;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 32px;
+    width: 20%;
+    border-radius: 20px;
+    padding: 4px 4px 4px 4px;
+    font-family: "Source Sans Pro" monospace sans-serif;
+}
+
+a:hover {
+    background-color: #8f6b49;
+}

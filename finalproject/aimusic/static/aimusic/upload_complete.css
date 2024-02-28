@@ -1,0 +1,38 @@
+img {
+    max-width: 50%;
+    margin: auto;
+}
+
+#loading {
+    visibility: hidden;
+}
+
+a {
+    display: block;
+    background-color: #B99470;
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 32px;
+    width: 30%;
+    border-radius: 20px;
+    padding: 4px 4px 4px 4px;
+    font-family: "Source Sans Pro" monospace sans-serif;
+}
+
+a:hover {
+    background-color: #8f6b49;
+}
+
+h1 {
+    color: #5F6F52;
+    font-size: 64px;
+    font-family: "Source Sans Pro" monospace sans-serif;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 100px;
+}
+

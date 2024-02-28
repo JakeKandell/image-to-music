@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="{% static 'aimusic/shared.css' %}">
+    <link rel="stylesheet" href="{% static 'aimusic/home.css' %}">
+</head>
+<body>
+    <div class="content">
+        <h1>AI Image To Music</h1>
+        <p id="instructions">Upload an image and watch AI convert it into a song!</p>
+        <form method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Upload</button>
+        </form>
+    </div>
+</body>
+</html>

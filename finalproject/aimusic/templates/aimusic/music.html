@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Generated Music</title>
+    <link rel="stylesheet" href="{% static 'aimusic/shared.css' %}">
+    <link rel="stylesheet" href="{% static 'aimusic/music.css' %}">
+</head>
+<body>
+    <div class="content">
+        <h1>AI Generated Music</h1>
+        <p>Check out the music that has been generated!</p>
+        <audio controls>
+            <source src="{{ relativeMusicPath }}" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
+        <a id="home-button" href="{% url 'aimusic:home' %}">Home</a>
+    </div>
+</body>
+</html>
